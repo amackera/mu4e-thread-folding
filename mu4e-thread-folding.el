@@ -64,7 +64,7 @@
        :overline nil
        :underline nil
        :foreground nil
-       :background "#DCE6F9"))
+       :background nil))
   "Face for the root node thread when it is unfolded."
   :group 'mu4e-thread-folding)
 
@@ -81,7 +81,7 @@
   '((t :extend t
        :underline nil
        :foreground nil
-       :background "#EEF3FC"))
+       :background nil))
   "Face for a thread when it is unfolded (child node)"
   :group 'mu4e-thread-folding)
 
